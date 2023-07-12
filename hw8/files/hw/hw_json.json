@@ -1,0 +1,114 @@
+{
+  ".\\files": {
+    "1": {
+      "name": "hw",
+      "parrent_folder": ".\\files",
+      "type": "folder",
+      "size": 0
+    },
+    "2": {
+      "name": "task_1",
+      "parrent_folder": ".\\files",
+      "type": "folder",
+      "size": 121
+    },
+    "3": {
+      "name": "task_2",
+      "parrent_folder": ".\\files",
+      "type": "folder",
+      "size": 89
+    },
+    "4": {
+      "name": "task_3",
+      "parrent_folder": ".\\files",
+      "type": "folder",
+      "size": 47
+    },
+    "5": {
+      "name": "task_4",
+      "parrent_folder": ".\\files",
+      "type": "folder",
+      "size": 340
+    },
+    "6": {
+      "name": "task_5",
+      "parrent_folder": ".\\files",
+      "type": "folder",
+      "size": 1031
+    },
+    "7": {
+      "name": "task_6",
+      "parrent_folder": ".\\files",
+      "type": "folder",
+      "size": 812
+    }
+  },
+  ".\\files\\hw": {
+    "1": {
+      "name": "hw_json.json",
+      "parrent_folder": ".\\files\\hw",
+      "type": "file",
+      "size": 0
+    }
+  },
+  ".\\files\\task_1": {
+    "1": {
+      "name": "json_file.json",
+      "parrent_folder": ".\\files\\task_1",
+      "type": "file",
+      "size": 121
+    }
+  },
+  ".\\files\\task_2": {
+    "1": {
+      "name": "json_file.json",
+      "parrent_folder": ".\\files\\task_2",
+      "type": "file",
+      "size": 89
+    }
+  },
+  ".\\files\\task_3": {
+    "1": {
+      "name": "csv_file.csv",
+      "parrent_folder": ".\\files\\task_3",
+      "type": "file",
+      "size": 47
+    }
+  },
+  ".\\files\\task_4": {
+    "1": {
+      "name": "new_json_file.json",
+      "parrent_folder": ".\\files\\task_4",
+      "type": "file",
+      "size": 340
+    }
+  },
+  ".\\files\\task_5": {
+    "1": {
+      "name": "json_file.json",
+      "parrent_folder": ".\\files\\task_5",
+      "type": "file",
+      "size": 559
+    },
+    "2": {
+      "name": "json_file.pickle",
+      "parrent_folder": ".\\files\\task_5",
+      "type": "file",
+      "size": 472
+    }
+  },
+  ".\\files\\task_6": {
+    "1": {
+      "name": "json_file.pickle",
+      "parrent_folder": ".\\files\\task_6",
+      "type": "file",
+      "size": 472
+    },
+    "2": {
+      "name": "new_json_file.json",
+      "parrent_folder": ".\\files\\task_6",
+      "type": "file",
+      "size": 340
+    }
+  }
+}
