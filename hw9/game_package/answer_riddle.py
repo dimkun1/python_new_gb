@@ -6,9 +6,9 @@ __all__ = ['riddle']
 
 def riddle(text, list_of_key, quntity_try):
     print(text)
-    count = 0
-    while quntity_try > count:
-        answer = input(f"У Вас {quntity_try - count} попыток. Введите Ваш ответ: ")
+    count = 1
+    while quntity_try > 0:
+        answer = input(f"У Вас {quntity_try} попыток. Введите Ваш ответ: ")
         if answer in list_of_key:
             print(f"Вы угадали с {count} попытки!")
             return count
