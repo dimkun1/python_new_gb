@@ -17,7 +17,7 @@ from functools import wraps
 def decor(function_: Callable):
     @wraps(function_)
     def wrapper(*args, **kwargs):
-        file = os.getcwd() + "/les_9/files/" + function_.__name__ + ".json"
+        file = os.getcwd() + "\\files\\" + function_.__name__ + ".json"
         if os.path.exists(file):
             with open(file, 'r', encoding="utf-8") as f:
                 params = json.load(f)
