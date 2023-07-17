@@ -19,7 +19,7 @@ def txt_to_json (txt_file, json_file):
     ):
         while res := f.readline():
             output_dict[res.split()[0].capitalize()] = res.split()[1]
-        json.dump(output_dict, j_f, indent=2)
+        json.dump(output_dict, j_f, indent=1)
 
 
 if __name__ == "__main__":

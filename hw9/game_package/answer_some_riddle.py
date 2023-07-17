@@ -12,7 +12,7 @@ QUATITY_TRY = 3
 def riddle(text, list_of_key):
     print(text)
     for i in range(QUATITY_TRY):
-        answer = input(f"У Вас {QUATITY_TRY - i} попыток. Введите Ваш ответ:")
+        answer = input(f"У Вас {QUATITY_TRY} попыток. Введите Ваш ответ:")
         if answer in list_of_key:
             print(f"Вы угадали с {i + 1} попытки!")
             return i + 1
