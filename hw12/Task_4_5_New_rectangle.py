@@ -102,7 +102,7 @@ if __name__ == "__main__":
     print(rect_1.area_rectangle())
     rect_2 = Rectangle(4, 1)
     print(rect_2.area_rectangle())
-    rect_1.side_1 = 8
-    rect_1.side_2 = 2
+    rect_1.side_1 = -8
+    rect_1.side_2 = -2
     print(f'{rect_1.side_2=}')
     print(rect_1.area_rectangle())

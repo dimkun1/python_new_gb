@@ -31,6 +31,6 @@ class NewFactorial():
         raise StopIteration
 
 
-gen = NewFactorial(5)
+gen = NewFactorial(1, 10, 2)
 for num in gen:
     print(num)

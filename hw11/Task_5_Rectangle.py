@@ -44,13 +44,16 @@ class Rectangle:
 if __name__ == "__main__":
     rect_1 = Rectangle(3, 2)
     print(rect_1.perimeter_rectangle())
+    print()
     # print(rect_1.area_rectangle())
     rect_2 = Rectangle(2, 2)
     print(rect_2.perimeter_rectangle())
+    print()
     # print(rect_2.area_rectangle())
     s = rect_1 + rect_2
     print(s.perimeter_rectangle())
     print(s.area_rectangle())
+    print()
     d = rect_1 - rect_2
     print(d.perimeter_rectangle())
     print(d.area_rectangle())
